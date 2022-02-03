@@ -8,6 +8,10 @@
 }
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
+}
+body {
+  overflow-x: hidden;
 }
 * {
   padding: 0;
@@ -881,8 +885,8 @@ footer .copyright {
   }
   .logo h2 {
     /* margin-left: -20px; */
-    text-align: center;
-    padding-right: 60px;
+    text-align: left;
+    /* padding-right: 60px; */
   }
 
   .hero-col-1 {
@@ -930,13 +934,16 @@ footer .copyright {
   .section4-container.flex {
     flex-direction: column;
   }
+  .section-7 input[type="submit"] {
+    margin-top: 15px;
+  }
   .footer-col-1 {
     grid-column: span 4;
   }
   .footer-section-container.grid {
     position: relative;
-    left: 40px;
+    left: 34px;
     /* margin-left: 40px; */
-    text-align: center;
+    text-align: left;
   }
 }
