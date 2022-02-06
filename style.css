@@ -940,9 +940,13 @@ footer .copyright {
   .footer-col-1 {
     grid-column: span 4;
   }
+  .footer-col-3 {
+    /* margin-left: 10px; */
+    margin-right: 20px;
+  }
   .footer-section-container.grid {
     position: relative;
-    left: 28px;
+    left: 20px;
     /* margin-left: 40px; */
     text-align: left;
   }
